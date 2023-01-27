@@ -1,0 +1,12 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Typescript with Node, Express, and TypORM",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Arif Iqbal",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
