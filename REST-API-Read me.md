@@ -13,4 +13,18 @@
 5. Git Setup
    1. Initialize Git: git init
    2. Remote Access to git Repository: git remote add origin https://github.com/iqbal-arif/Node-REST-API--TypeORM-Express.git
-   3.
+   3. Commit changes.
+6. Typescript Configuration:
+   {
+   "compilerOptions": {
+   "target": "ES5",
+   "outDir": "dist"
+   }
+   }
+7. Package JSON configuration:
+   "scripts": {
+   "build": "tsc",
+   "start-server": "node dist/server.js"
+   },
+8. File compilation: tsc
+9. App Launch: npm run build
