@@ -28,3 +28,5 @@
    },
 8. File compilation: tsc
 9. App Launch: npm run build
+10. To run the .ts file and get result: npm run start-server
+11. Typescript Continuous UPdate: tsc -w
