@@ -32,3 +32,11 @@
 11. Typescript Continuous UPdate: tsc -w
 12. Install Express normal dependency: npm install --save express
 13. Install Express for Typescript dependency: npm install --save-dev @types/express
+14. Install rimraf to clean /dist folder at the beginning of build process: npm install --save-def rimraf
+
+**\*** SERVER Setup **\***
+
+1. Server Logic: server.js
+2. Routes HTTP Logic: route.ts
+3. Compile: npm run build if this does not work then try tsc or tsc -w
+4. Start Server: node dist/server.js
