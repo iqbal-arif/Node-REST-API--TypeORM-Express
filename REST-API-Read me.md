@@ -30,3 +30,5 @@
 9. App Launch: npm run build
 10. To run the .ts file and get result: npm run start-server
 11. Typescript Continuous UPdate: tsc -w
+12. Install Express normal dependency: npm install --save express
+13. Install Express for Typescript dependency: npm install --save-dev @types/express
