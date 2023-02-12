@@ -41,3 +41,10 @@
 2. Routes HTTP Logic: route.ts
 3. Compile: npm run build if this does not work then try tsc or tsc -w
 4. Start Server: node dist/server.js
+
+/****\*\***** npm notes ******\*******
+
+    delete the node modules folder by running rm -rf node_modules
+    delete package.lock.json file by running rm -f package-lock.json
+    clean up the NPM cache by running npm cache clean --force
+    install all packages again by running npm install
